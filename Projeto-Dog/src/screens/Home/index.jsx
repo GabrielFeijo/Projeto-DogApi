@@ -28,7 +28,7 @@ export default function Home() {
         try {
             const config = {
                 method: 'get',
-                url: 'https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=30',
+                url: 'https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&limit=30',
                 headers: { 'x-api-key': 'live_zYCqBO6xebMaasLBQECWUejx4ZDMGnsQX6NUgVvaNefMOL0q3tfMzYVbYqfS42ux' }
             }
             const { status, data } = await axios(config);
