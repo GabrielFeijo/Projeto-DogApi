@@ -23,7 +23,6 @@ export default function Home() {
       setModalVisible(!isModalVisible);
     };
   
-
     async function handleBuscar() {
             
         try {
@@ -117,7 +116,6 @@ export default function Home() {
             <></>
             )}
         </Container>
-    
     );
 }
 

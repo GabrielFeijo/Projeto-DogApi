@@ -18,7 +18,5 @@ export default function App() {
         <Home />
       </>
     );
-  }
-
-  
+  }  
 }

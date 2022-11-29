@@ -25,21 +25,17 @@ export default StyleSheet.create({
     borderRadius: 15,
     shadowOpacity: 0.1,
     shadowRadius: 8,
-    marginBottom: 10,
+    marginBottom: 10
     
-  },
-  
+  },  
   modal: {
-  
     flex:1,
     justifyContent:"center",
-   alignItems:"center",
+    alignItems:"center",
     elevation: 5,
     padding:20,
     borderRadius: 20,
-    margin:"auto",
-    
-  
+    margin:"auto"  
   },
   right:{
     alignSelf: "flex-end"
@@ -48,21 +44,12 @@ export default StyleSheet.create({
     color:"#FFF",
     display: "block",
     textAlign:"center"
-  
   },
   desc:{
     backgroundColor:"#ffb426",
-
     borderRadius: 20,
     paddingVertical:10,
     paddingHorizontal:20,
   }
-
-  
-  
-
- 
-
-
 
 });

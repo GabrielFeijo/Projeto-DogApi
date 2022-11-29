@@ -59,7 +59,6 @@ export const Text = styled.Text`
     
 `;
 
-
 export const styles = StyleSheet.create({
     loadingScreen: {
         position: "absolute",
@@ -71,10 +70,9 @@ export const styles = StyleSheet.create({
         justifyContent: "center",
         backgroundColor: "#0008",
         opacity: 1,
-        zIndex: 9999,
+        zIndex: 9999
     },h1: {
         color: '#FFF',
-   
         marginTop: 12,
         fontSize:24
     },
@@ -84,12 +82,10 @@ export const styles = StyleSheet.create({
         backgroundColor: 'rgba(255, 255, 255 ,0.7)',
         alignSelf: 'stretch'
     },
-   
     flex:{
         flex: 1,
         flexWrap: "wrap",
         justifyContent:'center',
-        flexDirection: "row",
-    },
-   
+        flexDirection: "row"
+    }
 });

@@ -21,11 +21,10 @@ export default function Card({ name, url, id ,selectPetData}) {
           height={108}
           imageURL={url}
         />
-
         <Text style={style.cardName} key={"Txt" + id}>
           Raça: {name[0]['name']}
         </Text>
-       
+    
       </TouchableOpacity>
     </>
   );
