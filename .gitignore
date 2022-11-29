@@ -1,0 +1,14 @@
+Projeto-Dog/node_modules/
+Projeto-Dog/.expo/
+Projeto-Dog/dist/
+Projeto-Dog/npm-debug.*
+Projeto-Dog/*.jks
+Projeto-Dog/*.p8
+Projeto-Dog/*.p12
+Projeto-Dog/*.key
+Projeto-Dog/*.mobileprovision
+Projeto-Dog/*.orig.*
+Projeto-Dog/web-build/
+
+# macOS
+Projeto-Dog/.DS_Store
